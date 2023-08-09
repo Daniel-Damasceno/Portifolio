@@ -1,0 +1,48 @@
+section#contact {
+  text-align: center;
+  width: 100%;
+  background-color: var(--light-primary-color);
+  min-height: 85vh;
+  padding: 10rem 9% 2rem;
+}
+
+section#contact h2 {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  display: block;
+}
+
+.contact_link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  margin: 1rem auto 1rem auto;
+}
+
+.contact_link_box {
+  font-size: 3.4rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact_link_box i {
+  margin: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 599px) {
+  section#contact h2 {
+    font-size: 3rem;
+  }
+
+  .contact_link_box {
+    font-size: 2rem;
+  }
+}

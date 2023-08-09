@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Babel configuration
+.babelrc
+babel.config.js
+
+# Webpack configuration
+webpack.config.js
+
+# Logs
+*.log
+
+# Vim swap files
+*.swp
+
+# Visual Studio Code configuration
+.vscode/
+
+# IntelliJ IDEA configuration
+.idea/
+
+# Cache and temp folders
+.cache/
+.tmp/
+
+# macOS specific files
+.DS_Store
+
+# Compiled WebAssembly modules
+*.wasm

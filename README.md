@@ -1,0 +1,44 @@
+# Meu Portfólio
+
+Bem-vindo ao meu projeto de portfólio! Este é um site pessoal onde compartilho informações sobre mim, meus projetos e habilidades. O projeto foi desenvolvido usando HTML, CSS e JavaScript.
+
+## Visão Geral
+
+Este projeto foi criado para exibir de forma eficaz o meu portfólio online. Ele inclui as seguintes características:
+
+- Uma página inicial que destaca minhas informações pessoais e principais habilidades.
+- Uma seção de projetos que exibe uma seleção dos meus trabalhos anteriores.
+- Um mecanismo de navegação suave para acessar diferentes seções da página.
+- Responsividade para garantir uma experiência agradável em dispositivos móveis.
+
+## Demonstração
+
+Inclua aqui um link para uma demonstração ao vivo do seu projeto, se disponível.
+
+## Tecnologias Utilizadas
+
+- HTML: Estruturação do conteúdo.
+- CSS: Estilização e layout.
+- JavaScript: Funcionalidades interativas e animações.
+
+## Como Usar
+
+1. Clone este repositório para a sua máquina local.
+2. Abra o arquivo `index.html` no seu navegador preferido para visualizar o site.
+
+## Screenshots
+
+![Home section](./public/images//home.png)
+![About section](./public/images/about.png)
+![Skills section](./public/images/skills.png)
+![Project section](./public/images/projects.png)
+![Contact section](./public/images/contact.png)
+
+## Contato
+
+Se você quiser entrar em contato comigo ou saber mais sobre o meu trabalho, você pode me encontrar em:
+
+- Email: [damassa.dan@gmail.com](mailto:daniel@gmail.com)
+- LinkedIn: [Daniel Damasceno](https://www.linkedin.com/in/danieldamascenodev/)
+
+Sinta-se à vontade para explorar o meu portfólio e conhecer os meus projetos. Obrigado por visitar!
