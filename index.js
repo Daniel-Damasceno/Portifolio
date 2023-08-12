@@ -1,12 +1,12 @@
 // Importações dos módulos
-import '../../index.html'
-import '../styles/index.css' // Importa o css para inclusão de estilos na pagina
-import { toggleDropdown } from '../scripts/dropdownLang.js'; // Importa função para alternar o dropdown de idiomas
-import { setActiveLink } from '../scripts/currentSection.js'; // Importa função para definir a seção ativa
-import { animeScroll } from '../scripts/animate.js'; // Importa função para animação de scroll
-import { darkMode, loadTheme } from '../scripts/switchTheme.js'; // Importa funções relacionadas ao tema escuro
-import { activeNavbar } from '../scripts/menuBurguer'; // Importa função para ativar o menu de navegação
-import { initSlider } from '../scripts/automaticCorrosel'; // Importa função para inicializar o carrossel automático
+import './index.html'
+import './index.css' // Importa o css para inclusão de estilos na pagina
+import { toggleDropdown } from './src/scripts/dropdownLang.js'; // Importa função para alternar o dropdown de idiomas
+import { setActiveLink } from './src/scripts/currentSection.js'; // Importa função para definir a seção ativa
+import { animeScroll } from './src/scripts/animate.js'; // Importa função para animação de scroll
+import { darkMode, loadTheme } from './src/scripts/switchTheme.js'; // Importa funções relacionadas ao tema escuro
+import { activeNavbar } from './src/scripts/menuBurguer'; // Importa função para ativar o menu de navegação
+import { initSlider } from './src/scripts/automaticCorrosel'; // Importa função para inicializar o carrossel automático
 
 // Event listener para o botão de dropdown
 const dropdownButton = document.getElementById("dropdown");
