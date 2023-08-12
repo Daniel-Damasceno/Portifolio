@@ -5,13 +5,6 @@ node_modules/
 dist/
 build/
 
-# Babel configuration
-.babelrc
-babel.config.js
-
-# Webpack configuration
-webpack.config.js
-
 # Logs
 *.log
 
