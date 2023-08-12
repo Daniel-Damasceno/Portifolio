@@ -25,7 +25,7 @@ export function mockupSlideIten({ name, url, topics }) {
 
   // Criar a imagem
   const projectImage = document.createElement('img');
-  projectImage.src = '../public/images/exemple-img.jpg';
+  projectImage.src = './public/images/exemple-img.jpg';
   projectImage.alt = 'exemple';
   projectImage.classList.add('box_project_exemple_img');
 
