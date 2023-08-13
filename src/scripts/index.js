@@ -1,5 +1,5 @@
 // Importações dos módulos
-import '../../index.html' // Importa o html
+import '../public/index.html' // Importa o html
 import '../styles/index.css' // Importa o css para inclusão de estilos na pagina
 import { toggleDropdown } from './dropdownLang.js'; // Importa função para alternar o dropdown de idiomas
 import { setActiveLink } from './currentSection.js'; // Importa função para definir a seção ativa
