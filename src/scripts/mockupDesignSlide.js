@@ -71,7 +71,7 @@ export function mockupSlideIten({ name, url, topics, homepage }) {
 
   // Criar o link "Ver projeto"
   const showProjectLink = document.createElement('a');
-  showProjectLink.href = '#';
+  showProjectLink.href = homepage;
   showProjectLink.classList.add('box_project_repository_show_project');
   showProjectLink.textContent = 'Ver projeto';
 
