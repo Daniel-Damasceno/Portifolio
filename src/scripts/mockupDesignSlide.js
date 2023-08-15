@@ -7,7 +7,7 @@ const slide1 = document.querySelector('[data-index="1"]')
 let slideItems = document.querySelectorAll('[data-slide="item"]');
 let currentIndex = 0
 
-export function mockupSlideIten({ name, url, topics }) {
+export function mockupSlideIten({ name, url, topics, homepage }) {
   // Criar o elemento <div> principal com a classe "slide-itens" e os atributos de data
   const slideItem = document.createElement('div');
   slideItem.classList.add('slide-itens');
@@ -25,7 +25,7 @@ export function mockupSlideIten({ name, url, topics }) {
 
   // Criar a imagem
   const projectImage = document.createElement('img');
-  projectImage.src = '../assets/images/exemple-img.webp';
+  projectImage.src = homepage + 'home.webp';
   projectImage.alt = 'exemple';
   projectImage.classList.add('box_project_exemple_img');
 

@@ -39,7 +39,7 @@ export function initSlider({startAtIndex = 0, autoPlay = true, timeInterval = 30
 
     // Para cada item no novo array, chama a função para adicionar um slide
     newData.forEach((item) => {
-      mockupSlideIten({ name: item.name, url: item.html_url, topics: item.topics });
+      mockupSlideIten({ name: item.name, url: item.html_url, topics: item.topics, homepage: item.homepage });
     });
 
     // Atualizar a lista de elementos dos slides após criar todos os novos elementos
