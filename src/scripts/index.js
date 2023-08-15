@@ -18,12 +18,12 @@ dropdownButton.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', setActiveLink);
 
 // Event listener para o scroll, define a seção ativa durante o scroll
-window.addEventListener('scroll', setActiveLink);
+window.addEventListener('scroll', setActiveLink, { passive: true });
 
 // Event listener para o scroll, realiza animações de scroll
 window.addEventListener('scroll', () => {
   animeScroll(); // Chama a função para realizar animações de scroll
-});
+}, { passive: true });
 
 // Event listener para quando o DOM for completamente carregado, realiza animações de scroll
 document.addEventListener('DOMContentLoaded', () => {
