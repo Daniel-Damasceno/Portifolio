@@ -1,5 +1,5 @@
 // Importações dos módulos
-import { techsNamesFilter } from './techsFilter.js' // Importa função que filtra a lista de tecnologias e retorna o ícone correspondente
+import { techsNamesFilter, techsLinksFilter } from './techsFilter.js' // Importa função que filtra a lista de tecnologias e retorna o ícone correspondente
 
 // Seleção de elementos do DOM
 const slideList = document.querySelector('[data-slide="list"]') 
@@ -40,10 +40,13 @@ export function mockupSlideIten({ name, url, topics, homepage }) {
   // Criação dos elementos <a> e <i> com as classes dos ícones presentes em topics
   const skillIconLinks = topics.map(topic => {
     const iconClassName = techsNamesFilter(topic);
+    const documentationLink = techsLinksFilter(topic)
     if (iconClassName) {
       const skillIconLink = document.createElement('a');
-      skillIconLink.href = '#';
+      skillIconLink.href = documentationLink;
+      skillIconLink.title = 'Link da documentação da tecnologia.'
       skillIconLink.classList.add('box_project_skill_icon');
+      skillIconLink.target = '_blank'
       
       const skillIcon = document.createElement('i');
       skillIcon.className = iconClassName;
@@ -73,12 +76,14 @@ export function mockupSlideIten({ name, url, topics, homepage }) {
   const showProjectLink = document.createElement('a');
   showProjectLink.href = homepage;
   showProjectLink.classList.add('box_project_repository_show_project');
+  showProjectLink.ariaLabel = 'Ver projeto'
   showProjectLink.textContent = 'Ver projeto';
 
   // Criar o link para o repositorio no GitHub com o ícone
   const githubLink = document.createElement('a');
   githubLink.classList.add('box_project_repository_github')
   githubLink.href = url;
+  githubLink.ariaLabel = 'Acessar repositorio do projeto'
   githubLink.target = '_blank'
 
   const githubIcon = document.createElement('i');
