@@ -71,10 +71,4 @@ section#home {
   .home-section p {
     font-size: 1.2rem;
   }
-
-  .social-contact a {
-    width: 3rem;
-    height: 3rem;
-    font-size: 1.5rem;
-  }
 }
