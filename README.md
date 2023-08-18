@@ -28,11 +28,11 @@ Inclua aqui um link para uma demonstração ao vivo do seu projeto, se disponív
 
 ## Screenshots
 
-![Home section](./public/images//home.png)
-![About section](./public/images/about.png)
-![Skills section](./public/images/skills.png)
-![Project section](./public/images/projects.png)
-![Contact section](./public/images/contact.png)
+![Home section](./assets/images//home.png)
+![About section](./assets/images/about.png)
+![Skills section](./assets/images/skills.png)
+![Project section](./assets/images/projects.png)
+![Contact section](./assets/images/contact.png)
 
 ## Contato
 
