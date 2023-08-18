@@ -28,11 +28,11 @@ Inclua aqui um link para uma demonstração ao vivo do seu projeto, se disponív
 
 ## Screenshots
 
-![Home section](./assets/images//home.png)
-![About section](./assets/images/about.png)
-![Skills section](./assets/images/skills.png)
-![Project section](./assets/images/projects.png)
-![Contact section](./assets/images/contact.png)
+![Home section](./assets/images//home.webp)
+![About section](./assets/images/about.webp)
+![Skills section](./assets/images/skills.webp)
+![Project section](./assets/images/projects.webp)
+![Contact section](./assets/images/contact.webp)
 
 ## Contato
 
