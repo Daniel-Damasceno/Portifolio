@@ -7,7 +7,7 @@ import { animeScroll } from './animate.js'; // Importa função para animação 
 import { darkMode, loadTheme } from './switchTheme.js'; // Importa funções relacionadas ao tema escuro
 import { activeNavbar } from './menuBurguer'; // Importa função para ativar o menu de navegação
 import { initSlider } from './automaticCorrosel'; // Importa função para inicializar o carrossel automático
-import { translateContent } from "../scripts/i18n.js"; // Importa função para tradução de idioma
+import { translateContent } from "./i18n.js"; // Importa função para tradução de idioma
 
 // Event listener para o botão de dropdown
 const dropdownButton = document.getElementById("dropdown");
