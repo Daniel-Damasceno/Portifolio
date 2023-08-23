@@ -82,6 +82,10 @@
   filter: drop-shadow(0px 0px 5px var(--highlight-color));
 }
 
+.select-lang a.active {
+  color: var(--highlight-color);
+}
+
 .select-lang a:hover {
   color: var(--highlight-color);
 }
