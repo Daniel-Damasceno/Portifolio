@@ -357,6 +357,7 @@ section#home {
   background-color: var(--light-primary-color);
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+  position: relative;
 }
 
 .home-section {
@@ -410,6 +411,28 @@ section#home {
   z-index: 1;
 }
 
+.background-img-overlay-home {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(b3918b6ef23421ad97ae.webp);
+}
+
+.background-img-overlay-home::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: linear-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, var(--light-primary-color) 80%),
+              linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--light-primary-color) 90%), 
+              linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--light-primary-color) 90%);
+  width: 100%;
+  height: 100%; 
+}
+
 @media only screen and (max-width: 425px) {
   .home-section h1 {
     font-size: 3.3rem;
@@ -422,6 +445,10 @@ section#home {
   .home-section p {
     font-size: 1.2rem;
   }
+
+  .background-img-overlay-home {
+    width: 100%;
+  }
 }
 section#about {
   display: flex;
@@ -431,6 +458,7 @@ section#about {
   background-color: var(--light-secundary-color);
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+  position: relative;
 }
 
 .about-section {
@@ -446,6 +474,28 @@ section#about {
 
 .about-section p {
   margin-top: 15px;
+}
+
+.background-img-overlay-about {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(09f8720c69c11f3d78fb.webp);
+}
+
+.background-img-overlay-about::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: linear-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, var(--light-secundary-color) 90%),
+              linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--light-secundary-color) 90%), 
+              linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--light-secundary-color) 90%);
+  width: 100%;
+  height: 100%; 
 }
 
 @media only screen and (max-width: 425px) {
@@ -556,7 +606,7 @@ section#projects h2 {
 
 .box_project_exemple_img {
   width: 100%;
-  height: 22rem;
+  height: 19rem;
   border-radius: 1rem;
 }
 
@@ -734,6 +784,7 @@ section#contact {
   background-color: var(--light-primary-color);
   min-height: 85vh;
   padding: 10rem 9% 2rem;
+  position: relative;
 }
 
 section#contact h2 {
@@ -767,6 +818,29 @@ section#contact h2 {
   border-radius: 2px;
 }
 
+.background-img-overlay-contact {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(678522c35e3e6470e3cf.webp);
+}
+
+.background-img-overlay-contact::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, var(--light-primary-color) 95%),
+              linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--light-primary-color) 90%), 
+              linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--light-primary-color) 95%);
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 599px) {
   section#contact h2 {
     font-size: 3rem;
@@ -774,6 +848,10 @@ section#contact h2 {
 
   .contact_link_box {
     font-size: 2rem;
+  }
+
+  .background-img-overlay-contact {
+    width: 100%;
   }
 }
 footer {
@@ -914,8 +992,20 @@ label > .bi-sun {
   border-color: var(--dark-text-color);
 }
 
+.dark .background-img-overlay-home::after {
+  background: linear-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, var(--dark-primary-color) 90%),
+              linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 50%, var(--dark-primary-color) 100%), 
+              linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--dark-primary-color) 90%);
+}
+
 .dark section#about {
   background-color: var(--dark-secondary-color);
+}
+
+.dark .background-img-overlay-about::after {
+  background: linear-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, var(--dark-secondary-color) 90%),
+              linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 50%, var(--dark-secondary-color) 100%), 
+              linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--dark-secondary-color) 90%);
 }
 
 .dark section#skills {
@@ -940,6 +1030,12 @@ label > .bi-sun {
 
 .dark section#contact {
   background-color: var(--dark-primary-color);
+}
+
+.dark .background-img-overlay-contact::after {
+  background: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, var(--dark-primary-color) 95%),
+              linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--dark-primary-color) 90%), 
+              linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 60%, var(--dark-primary-color) 95%);
 }
 
 .dark footer {

@@ -28,7 +28,7 @@ https://daniel-portifolio.vercel.app/
 
 ## Screenshots
 
-![Home section](./assets/images//home.webp)
+![Home section](./assets/images/home.webp)
 ![About section](./assets/images/about.webp)
 ![Skills section](./assets/images/skills.webp)
 ![Project section](./assets/images/projects.webp)
