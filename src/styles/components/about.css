@@ -32,7 +32,7 @@ section#about {
   height: 100vh;
   background-position: center;
   background-size: cover;
-  background-image: url('../../../assets/images/img-about.png');
+  background-image: url('../../../assets/images/img-about.webp');
 }
 
 .background-img-overlay-about::after {
